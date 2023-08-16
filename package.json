@@ -1,0 +1,7 @@
+{
+  "name": "jellycrew-front",
+  "description": "Jellycrew web front-end",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "yarn@3.6.1"
+}
