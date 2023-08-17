@@ -12,7 +12,8 @@
     "admin": "yarn workspace jc-admin",
     "dashboard": "yarn workspace jc-creator-dashboard",
     "market": "yarn workspace jc-open-market",
-    "design": "yarn workspace @common/jc-design"
+    "design": "yarn workspace @common/jc-design",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "latest",
@@ -20,6 +21,10 @@
     "eslint": "latest",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.0",
     "prettier": "^3.0.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
