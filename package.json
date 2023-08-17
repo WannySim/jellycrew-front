@@ -12,6 +12,6 @@
     "admin": "yarn workspace jc-admin",
     "dashboard": "yarn workspace jc-creator-dashboard",
     "market": "yarn workspace jc-open-market",
-    "design": "yarn workspace jc-design"
+    "design": "yarn workspace @common/jc-design"
   }
 }

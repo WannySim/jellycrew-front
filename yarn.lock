@@ -1514,6 +1514,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@common/jc-design@workspace:common/jc-design":
+  version: 0.0.0-use.local
+  resolution: "@common/jc-design@workspace:common/jc-design"
+  dependencies:
+    "@storybook/addon-essentials": ^7.3.0
+    "@storybook/addon-interactions": ^7.3.0
+    "@storybook/addon-links": ^7.3.0
+    "@storybook/addon-onboarding": ^1.0.8
+    "@storybook/blocks": ^7.3.0
+    "@storybook/react": ^7.3.0
+    "@storybook/react-vite": ^7.3.0
+    "@storybook/testing-library": ^0.2.0
+    "@types/react": ^18.2.15
+    "@types/react-dom": ^18.2.7
+    "@typescript-eslint/eslint-plugin": ^6.0.0
+    "@typescript-eslint/parser": ^6.0.0
+    "@vitejs/plugin-react-swc": ^3.3.2
+    eslint: ^8.45.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.4.3
+    eslint-plugin-storybook: ^0.6.13
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    storybook: ^7.3.0
+    typescript: ^5.0.2
+    vite: ^4.4.5
+  languageName: unknown
+  linkType: soft
+
 "@discoveryjs/json-ext@npm:^0.5.3":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -8055,6 +8084,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jc-admin@workspace:apps/jc-admin"
   dependencies:
+    "@common/jc-design": "workspace:common/jc-design"
     "@types/node": 20.5.0
     "@types/react": 18.2.20
     "@types/react-dom": 18.2.7
@@ -8086,35 +8116,6 @@ __metadata:
     react-dom: 18.2.0
     tailwindcss: 3.3.3
     typescript: 5.1.6
-  languageName: unknown
-  linkType: soft
-
-"jc-design@workspace:common/jc-design":
-  version: 0.0.0-use.local
-  resolution: "jc-design@workspace:common/jc-design"
-  dependencies:
-    "@storybook/addon-essentials": ^7.3.0
-    "@storybook/addon-interactions": ^7.3.0
-    "@storybook/addon-links": ^7.3.0
-    "@storybook/addon-onboarding": ^1.0.8
-    "@storybook/blocks": ^7.3.0
-    "@storybook/react": ^7.3.0
-    "@storybook/react-vite": ^7.3.0
-    "@storybook/testing-library": ^0.2.0
-    "@types/react": ^18.2.15
-    "@types/react-dom": ^18.2.7
-    "@typescript-eslint/eslint-plugin": ^6.0.0
-    "@typescript-eslint/parser": ^6.0.0
-    "@vitejs/plugin-react-swc": ^3.3.2
-    eslint: ^8.45.0
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-refresh: ^0.4.3
-    eslint-plugin-storybook: ^0.6.13
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    storybook: ^7.3.0
-    typescript: ^5.0.2
-    vite: ^4.4.5
   languageName: unknown
   linkType: soft
 
